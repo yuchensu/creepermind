@@ -1,0 +1,73 @@
+/* Ok, this is where the fun starts.
+-------------------------------------------------------------------------------*/
+
+nav {
+	min-height:50px;
+	background:#221E1E;
+}
+
+#innerNav {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav h1 {
+	color:#F5F5F5;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.5em;
+	width: 45%;
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav p {
+	width:45%;
+	color:#F5F5F5;
+	float:right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+header {
+	min-height: 50px;
+	background:#56C1EB;
+	text-align: center;
+}
+
+header img {
+	width: 28%; 
+	max-width:960px;
+	min-width:150px;
+}
+
+#contents {
+	min-height: 400px;
+	background: #F25053;
+}
+
+footer {	
+	min-height: 50px;
+	background:#221E1E;
+}
+
+
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {
+
+}
+
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 1024px) {
+	
+}
